@@ -1,0 +1,138 @@
+### Step 2A
+pwd
+/Users/admin
+
+
+### Step 2B
+cd Desktop
+
+### Step 2C
+cd unit1-git-practice
+
+### Step 2D
+pwd
+/Users/David/Desktop/unit1-git-practice
+
+
+### Step 2E
+ls
+
+### Step 2F
+my-steps.txt
+
+
+### Step 2G
+cd /
+
+### Step 2H
+/
+
+### Step 2I
+Applications Volumes etc sbin
+Library bin home tmp
+System cores opt usr
+Users dev private var
+
+
+### Step 2J
+Desktop  Documents  Downloads  Library Movies Music
+Pictures Public Applications
+
+### Step 2K
+cd ~
+cd Desktop
+cd unit1-git-practice
+
+### Step 3A
+mkdir veggies meats desserts
+
+### Step 3B
+mv desserts sweets
+
+### Step 3C
+mkdir proteins
+
+### Step 3D
+mv meats proteins/
+
+### Step 3E
+cd veggies
+touch carrot.txt pea.txt
+
+### Step 3F
+cd ..
+cd sweets
+touch cookie.txt
+
+### Step 3G
+mv cookie.txt donut.txt
+
+
+### Step 3H
+cd ..
+touch thing.txt
+
+### Step 3I
+cp thing.txt tofu.txt
+
+
+### Step 3J
+mv tofu.txt proteins/
+
+### Step 3K
+cp thing.txt crab.txt
+mv crab.txt proteins/meats/
+
+### Step 3L
+rm thing.txt
+
+
+### Step 3M
+cp -r veggies plants
+
+### Step 3N
+mkdir drinks
+rm -r drinks
+
+
+### Step 4
+### Step 4
+$ git init
+Initialized empty Git repository in /Users/David/Desktop/unit1-git-practice/.git/
+$ git add .
+$ git commit -m 'first commit'
+[main (root-commit) 0684e7d] first commit
+ 8 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
+
+### Step 5
+git remote add origin https://github.com/DavidDollas/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 678 bytes | 678.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DavidDollas/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+### Step 6
+
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
